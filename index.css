@@ -1,124 +1,102 @@
-/* Can Boyan - based on Maxime Denuc midi theme */
-
-/* base */
-@import url("reset.css");
-
 @font-face {
-  font-family: TrueSans;
-  src: url("fonts/TrueSans-RegularWeb.woff");
-  src: url("fonts/TrueSans-RegularWeb.woff2");
+font-family: TrueSans;
+src:url("fonts/TrueSans-RegularWeb.woff2");
 }
 
 
 html {
-  font-size: 1rem;
-}
-
-
-hr {
-  display: none;
+font-size:1rem;
 }
 
 
 body {
-  font-family: 'TrueSans', Helvetica, Arial, sans-serif;
-  font-size: 1.7rem;
-  line-height: 2.1rem;
-  letter-spacing: .005rem;
+
+font-family:'TrueSans', Helvetica, Arial, sans-serif;
+
+font-size:1.7rem;
+
+line-height:2.1rem;
+
+letter-spacing:.005rem;
+
 }
 
 
-header, main, footer {
-  width: calc(100vw - 3rem);
-  margin: .75rem 1.5rem 20vh 1.5rem;
+
+header,
+main,
+footer {
+
+width:calc(100vw - 3rem);
+
+margin:.75rem 1.5rem 20vh 1.5rem;
+
 }
+
 
 
 main {
-  max-width: 50rem;
-  margin: 2rem auto 5rem auto;
+
+max-width:50rem;
+
+margin:2rem auto 5rem auto;
+
 }
+
 
 
 .home {
-  position: relative;
-  background-size: contain;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
+
+position:relative;
+
+background-size:contain;
+
+background-position:center;
+
+background-attachment:fixed;
+
+background-repeat:no-repeat;
+
+margin:0;
+
+padding:0;
+
 }
 
 
-a,
-a:visited,
-a:hover,
-a:active {
-  color: #000;
-  text-decoration: none;
+
+nav ul {
+
+padding:0;
+
+margin:0;
+
 }
 
-
-a:hover,
-main a,
-main a:visited,
-main a:hover,
-main a:active,
-div.footnotes a,
-div.footnotes a:visited,
-div.footnotes a:hover,
-div.footnotes a:active {
-  border-bottom: 2.5px solid #000;
-}
-
-
-p {
-  margin-bottom: 1.2rem;
-}
-
-
-nav {
-  z-index: 999;
-}
 
 
 nav ul li {
-  display: inline;
-  margin-right: .75rem;
+
+display:inline;
+
+margin-right:.75rem;
+
 }
 
 
-/* mobile */
 
-@media only screen and (max-width: 540px) {
+a {
 
-  body {
-    font-size: 1.3rem;
-    line-height: 1.6rem;
-  }
+color:#000;
 
+text-decoration:none;
 
-  header {
-    margin-bottom: 3.6rem;
-    line-height: 1.6rem;
-  }
+}
 
 
-  main {
-    margin: 0 1.5rem 3rem 1.5rem;
-  }
 
+a:hover {
 
-  .home {
-    height: 100vw;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-  }
+border-bottom:2.5px solid #000;
 
 }
